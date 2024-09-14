@@ -3,7 +3,7 @@
 }
 
 a {
-  border-radius: 100%;
+  border-radius: 100% 100% 0 100%;
   display: inline-flex;
   padding: 1ch;
   text-decoration: dotted line-through;
@@ -21,7 +21,7 @@ body {
   padding: 3ch;
 }
 
-figure {
+main {
   align-items: space-between;
   contain: layout;
   display: flex;
@@ -30,7 +30,7 @@ figure {
   min-height: 100vh;
 }
 
-figcaption {
+footer {
   flex-basis: calc(10em / 3);
   font-family: monospace;
   line-height: calc(4 / 3);
@@ -71,7 +71,7 @@ small {
 }
 
 @media (orientation: landscape) {
-  figcaption {
+  footer {
     writing-mode: sideways-lr;
   }
 }
