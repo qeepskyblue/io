@@ -1,0 +1,38 @@
+::selection {
+  background: #110A11;
+  color: deepskyblue;
+}
+
+:any-link {
+  background-color: transparent;
+  color: inherit;
+}
+
+:root {
+  background-color: deepskyblue;
+  background-image: conic-gradient(
+    deepskyblue,
+    deepskyblue,
+    #ec0,
+    mediumturquoise,
+    deepskyblue,
+    deepskyblue,
+    deepskyblue,
+    orange,
+    violet,
+    deepskyblue,
+    deepskyblue,
+    deepskyblue
+  );
+  color: #110A11;
+  transition: filter 200ms ease;
+}
+
+:any-link:active {
+  background-color: deepskyblue;
+  box-shadow: 0 0 1ex 1pc blueviolet;
+}
+
+#hifi:target {
+  filter: saturate(161.8%);
+}
