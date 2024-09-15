@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <title>deepskyblue atmosphere</title>
+  <style>
+    svg {
+      background: deepskyblue;
+      background-image: conic-gradient(
+        deepskyblue,
+        deepskyblue,
+        #ec0,
+        mediumturquoise,
+        deepskyblue,
+        deepskyblue,
+        deepskyblue,
+        orange,
+        violet,
+        deepskyblue,
+        deepskyblue,
+        deepskyblue
+      );
+    }
+  </style>
+</svg>
